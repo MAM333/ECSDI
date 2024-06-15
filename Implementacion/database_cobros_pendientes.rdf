@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434P</ns1:client_id>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro1</ns1:cobro_pendiente_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ns1:precio_total>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra1</ns1:compra_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro12">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro12</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra14</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro14">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro14</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra16</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro5">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro5</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra7</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro9">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro9</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra11</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro4">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro4</ns1:cobro_pendiente_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ns1:precio_total>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra4</ns1:compra_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro16">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro16</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra18</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro13">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro13</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra15</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro10">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro10</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra12</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro7">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro7</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra9</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro15">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro15</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra17</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro6">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro6</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra8</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro3</ns1:cobro_pendiente_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ns1:precio_total>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra3</ns1:compra_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro17">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro17</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra19</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro8">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro8</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra10</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro2">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro2</ns1:cobro_pendiente_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns1:precio_total>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra2</ns1:compra_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Cobro11">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/cobro_pendiente"/>
+    <ns1:cobro_pendiente_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobro11</ns1:cobro_pendiente_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra13</ns1:compra_id>
+    <ns1:precio_total rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:precio_total>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+  </rdf:Description>
+</rdf:RDF>

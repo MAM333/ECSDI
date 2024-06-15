@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir Recomendación</title>
+</head>
+<body>
+    <h2>Recomendaciones</h2>
+    {% if products %}
+        <ul>
+            {% for key, value in products.items() %}
+            <li>
+                <strong>ID:</strong> {{ key }}<br>
+                {% for product in value %}
+                <li>
+                <strong>Name:</strong> {{ product.product_name }}<br>
+                <strong>Description:</strong> {{ product.product_description }}<br>
+                <strong>Price:</strong> ${{ product.price }}<br>
+                </li>
+                {% endfor %}
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

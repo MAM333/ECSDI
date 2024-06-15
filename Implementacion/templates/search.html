@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Product</title>
+</head>
+<body>
+    <h1>Search Product</h1>
+    {% if not products%}
+        <form method='post'>
+            <input type='text' name='client_id' placeholder='Introduce tu dni'><br>
+            <input type='text' name='nombre' placeholder='Nombre del producto'><br>
+            <input type="number" name="minPrecio" step="0.01" min="0.0" placeholder="Precio mínimo..."/><br>
+            <input type="number" name="maxPrecio" step="0.01" min="0.0" placeholder="Precio máximo..."/><br>
+            <input type="submit" name="submit" value="Search">
+        </form>
+    {% else %}
+        <form method='post'>
+            <table style="width:85%; border-collapse:collapse;" align="center" border="1px solid black">
+                <tr align="left">
+                  <th style="padding:15px">Nombre</th>
+                  <th style="padding:15px">Precio</th>
+                  <th style="padding:15px">Descripción</th>
+                </tr>
+                {% for product in products%}
+                    <tr>
+                        <td>{{product.nombre}}</td>
+                        <td>{{product.precio}}</td>
+                        <td>{{product.descripcion}}</td>
+                        <td><input type="checkbox" name="checkbox" value="{{product.id}}"></td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <h4>Personal details</h4>
+            Id Cliente <input type="text" name="client_id" placeholder="Introduce tu dni"/><br>
+            Prioridad <input type="number" name="prioridad" placeholder="prioridad..."/><br>
+            <input type="submit" name="submit" value="Buy">
+        </form>
+    {% endif %}
+</body>
+</html>

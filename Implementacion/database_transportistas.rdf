@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Transportista3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/transportista"/>
+    <ns1:transportista_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transportista3</ns1:transportista_id>
+    <ns1:disponibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns1:disponibilidad>
+    <ns1:localizacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girona</ns1:localizacion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Transportista1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/transportista"/>
+    <ns1:transportista_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transportista1</ns1:transportista_id>
+    <ns1:disponibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:disponibilidad>
+    <ns1:localizacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:localizacion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Transportista2">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/transportista"/>
+    <ns1:transportista_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transportista2</ns1:transportista_id>
+    <ns1:disponibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns1:disponibilidad>
+    <ns1:localizacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castelldefels</ns1:localizacion>
+  </rdf:Description>
+</rdf:RDF>

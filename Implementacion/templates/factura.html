@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factura</title>
+</head>
+<body>
+    <h1>Factura</h1>
+    <ul>
+        {% for producto in productos %}
+            <li>{{ producto.id }} - {{ producto.precio }}</li>
+        {% endfor %}
+    </ul>
+    <p><strong>Precio Total:</strong> {{ precioTotal }}</p>
+</body>
+</html>

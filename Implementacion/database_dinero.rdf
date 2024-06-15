@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/dinero"/>
+    <ns1:dinero_valor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3750</ns1:dinero_valor>
+  </rdf:Description>
+</rdf:RDF>

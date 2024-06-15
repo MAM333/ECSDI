@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/DevolucionAccepted3/B0184OCGAP">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/DevolucionAccepted"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra3</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+    <ns1:reason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lkmlenpaeonchihmileiox</ns1:reason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/DevolucionAccepted3">
+    <ns1:precioTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</ns1:precioTotal>
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/DevolucionAccepted"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra3</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+  </rdf:Description>
+</rdf:RDF>

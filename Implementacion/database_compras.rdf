@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra9">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra9</ns1:compra_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:11:00.206641</ns1:created_at>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:11:00.206332</ns1:fecha_limite_devolucion>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:11:00.206338</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra8">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra8</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T18:57:14.060871</ns1:fecha_limite_devolucion>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T18:57:14.060875</ns1:fecha_envio>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T18:57:14.061098</ns1:created_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra17">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra17</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:34:02.610404</ns1:fecha_limite_devolucion>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:34:02.610702</ns1:created_at>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:34:02.610409</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra19">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra19</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:34:59.922538</ns1:fecha_limite_devolucion>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:34:59.922843</ns1:created_at>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:34:59.922543</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra16">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra16</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:33:37.377417</ns1:fecha_limite_devolucion>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:33:37.377759</ns1:created_at>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:33:37.377424</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434P</ns1:client_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra1</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAK</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493103</ns1:created_at>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493105</ns1:fecha_envio>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T20:04:42.493106</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra10">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra10</ns1:compra_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:11:36.798368</ns1:created_at>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:11:36.797991</ns1:fecha_limite_devolucion>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:11:36.797997</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra12">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra12</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:12:40.735772</ns1:fecha_envio>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:12:40.735767</ns1:fecha_limite_devolucion>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:12:40.736070</ns1:created_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra7">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra7</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T18:56:59.090497</ns1:fecha_limite_devolucion>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T18:56:59.090502</ns1:fecha_envio>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T18:56:59.090795</ns1:created_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra13">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra13</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:31:15.080068</ns1:fecha_envio>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:31:15.080389</ns1:created_at>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:31:15.080063</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra11">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra11</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:12:13.702170</ns1:fecha_limite_devolucion>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:12:13.702329</ns1:created_at>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:12:13.702174</ns1:fecha_envio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434C</ns1:client_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra3</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T17:00:34.542929</ns1:created_at>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-04T17:00:34.542930</ns1:fecha_envio>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T17:00:34.542931</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra2">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434C</ns1:client_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra3</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493506</ns1:created_at>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493506</ns1:fecha_envio>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T20:04:42.493507</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra14">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra14</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:32:07.899823</ns1:fecha_envio>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:32:07.900125</ns1:created_at>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:32:07.899819</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra5">
+
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434C</ns1:client_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra4</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493663</ns1:created_at>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T20:04:42.493664</ns1:fecha_envio>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T20:04:42.493664</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra18">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra18</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:34:29.378108</ns1:fecha_limite_devolucion>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:34:29.378113</ns1:fecha_envio>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:34:29.378467</ns1:created_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra4">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434C</ns1:client_id>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra4</ns1:compra_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T17:00:34.543087</ns1:created_at>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T17:00:34.543088</ns1:fecha_envio>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T17:00:34.543089</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra6">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra6</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUA</ns1:product_id>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-06T18:15:36.415481</ns1:fecha_envio>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T18:15:36.415784</ns1:created_at>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T18:15:36.415475</ns1:fecha_limite_devolucion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra15">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/compra"/>
+    <ns1:compra_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compra15</ns1:compra_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:fecha_limite_devolucion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-18T19:32:42.024739</ns1:fecha_limite_devolucion>
+    <ns1:fecha_envio rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-05T19:32:42.024744</ns1:fecha_envio>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGUP</ns1:product_id>
+    <ns1:created_at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-03T19:32:42.025151</ns1:created_at>
+  </rdf:Description>
+</rdf:RDF>

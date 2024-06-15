@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:ns2="http://www.nuin.org/ontology/fipa/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--3928924622115579655-0006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra4"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra16">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra"/>
+    <ns1:Direccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:Direccion>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">736287382</ns1:Tarjeta>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4515</ns1:CodigoPostal>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:Prioridad>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--7943553628750395730-0012">
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="message--6287411167379585616-0006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra4"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra6">
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8570</ns1:CodigoPostal>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAP"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGUP"/>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns1:Prioridad>
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra"/>
+    <ns1:Direccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:Direccion>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1233445</ns1:Tarjeta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra7">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/Compra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--7954517782829904487-0006">
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra4"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra4">
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAG"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGUP"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAK"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAP"/>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125551</ns1:Tarjeta>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15454</ns1:Tarjeta>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123456</ns1:Tarjeta>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4545121</ns1:Tarjeta>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25245353</ns1:Tarjeta>
+    <ns1:Direccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:Direccion>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1258</ns1:CodigoPostal>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5418</ns1:CodigoPostal>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">456</ns1:CodigoPostal>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15854</ns1:CodigoPostal>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4512</ns1:CodigoPostal>
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra"/>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns1:Prioridad>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns1:Prioridad>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns1:Prioridad>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--7943553628750395730-0018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra16"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message-9018829390978151415-0008">
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra6"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra5">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/Compra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--2891209558939897698-0006">
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra4"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--2891209558939897698-0012">
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra10"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///dades/zhiwei.lin1/ECSDI/ECSDI/Entrega2.0/message--7943553628750395730-0006">
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgenteVendedor"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra4"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra10">
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAG"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGUP"/>
+    <ns1:ProductoId rdf:resource="http://ONTOLOGIA_ECSDI/B0184OCGAP"/>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</ns1:Tarjeta>
+    <ns1:Tarjeta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4541351534</ns1:Tarjeta>
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/PeticionCompra"/>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns1:Prioridad>
+    <ns1:Prioridad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:Prioridad>
+    <ns1:Direccion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:Direccion>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</ns1:CodigoPostal>
+    <ns1:CodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45158</ns1:CodigoPostal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/Compra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Compra3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/Compra"/>
+  </rdf:Description>
+</rdf:RDF>

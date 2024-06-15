@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Busqueda3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/registro_busqueda"/>
+    <ns1:registro_busqueda_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Busqueda3</ns1:registro_busqueda_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAP</ns1:product_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Busqueda1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/registro_busqueda"/>
+    <ns1:registro_busqueda_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Busqueda1</ns1:registro_busqueda_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434P</ns1:client_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAK</ns1:product_id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/Busqueda2">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/registro_busqueda"/>
+    <ns1:registro_busqueda_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Busqueda2</ns1:registro_busqueda_id>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B0184OCGAG</ns1:product_id>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Envio de productos</title>
+</head>
+<body>
+    <h1>Los transportistas elegidos y sus lotes son:</h1>
+    {% for transportista, lote in transportistas_lotes %}
+    <h2>{{ transportista }} -> {{ lote }}</h2>
+    {% endfor %}
+    <form method='post'>
+        <input type="submit" name="submit" value="Enviar Producto">
+    </form>
+</body>
+</html>

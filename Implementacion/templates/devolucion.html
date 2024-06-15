@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devolución de Productos</title>
+</head>
+<body>
+    <h1>Devolución para Compra: {{ compra_id }}</h1>
+    <p>Cliente ID: {{ idCliente }}</p>    
+    <form id="devolucionForm" action="/devolucion/{{ compra_id }}/{{ idCliente }}" method="POST">
+        <ul>
+            {% for product in products %}
+                <li>
+                    <h3>{{ product.product_name }}</h3>
+                    {% if not product.returned %}
+                        <input type="checkbox" name="products" value="{{ product.product_id }}" data-price="{{ product.price }}" onchange="toggleInput(this)">
+                        <strong>ID:</strong> {{ product.product_id }}<br>
+                        <strong>Descripción:</strong> {{ product.product_description }}<br>
+                        <strong>Precio:</strong> {{ product.price }}<br>
+                        <div id="{{ product.product_id }}_input" style="display:none;">
+                            <label for="{{ product.product_id }}_reason">Motivo de devolución:</label><br>
+                            <input type="text" id="{{ product.product_id }}_reason" name="{{ product.product_id }}_reason"><br>
+                        </div>
+                    {% else %}
+                        <strong>ID:</strong> {{ product.product_id }}<br>
+                        <strong>Descripción:</strong> {{ product.product_description }}<br>
+                        <strong>Precio:</strong> {{ product.price }}<br>
+                        <strong>Estado:</strong> Devuelto<br>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+        <input type="hidden" id="totalPrice" name="totalPrice" value="0">
+        <input type="hidden" name="idCliente" value="{{ idCliente }}">
+        <button type="submit">Devolver</button>
+    </form>
+
+    <script>
+        let totalPrice = 0;
+
+        function toggleInput(checkbox) {
+            const inputId = checkbox.value + "_input";
+            const inputDiv = document.getElementById(inputId);
+            const price = parseFloat(checkbox.getAttribute('data-price'));
+
+            if (checkbox.checked) {
+                inputDiv.style.display = "block";
+                totalPrice += price;
+            } else {
+                inputDiv.style.display = "none";
+                totalPrice -= price;
+            }
+            document.getElementById('totalPrice').value = totalPrice.toFixed(2);
+        }
+
+        document.getElementById('devolucionForm').addEventListener('submit', function(event) {
+            alert('Total Price: ' + totalPrice.toFixed(2));  // For debugging
+        });
+    </script>
+</body>
+</html>

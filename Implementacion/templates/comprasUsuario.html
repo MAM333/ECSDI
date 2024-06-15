@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras del Cliente</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Compras del Usuario</h1>
+
+        {% for compra_id, products in compras.items() %}
+        <div class="card mb-3">
+            <div class="card-header">
+                Compra ID: {{ compra_id }}
+            </div>
+            <ul>
+                {% for product in products %}
+                <li>
+                    <h5>Producto ID: {{ product.product_id }}</h5>
+                    <p><strong>Nombre:</strong> {{ product.product_name }}</p>
+                    <p><strong>Descripción:</strong> {{ product.product_description }}</p>
+                    <p><strong>Precio:</strong> {{ product.price }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+            <form action="/compras" method="POST">
+                <input type="hidden" name="compra_id" value="{{ compra_id }}">
+                <input type="hidden" name="idCliente" value="{{ idCliente }}">
+                <button type="submit" name="devolver" value="Devolucion">Devolución</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

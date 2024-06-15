@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra2">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/RegistrarCompra"/>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Prueba</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">B0184OCGAG</ns1:Producto>
+    <ns1:Usuario rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns1:Usuario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra1">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/RegistrarCompra"/>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Manzanas</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">B0184OCGUP</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">SI</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">si</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">B0184OCGAG</ns1:Producto>
+    <ns1:Usuario rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns1:Usuario>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/PeticionCompra3">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/RegistrarCompra"/>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Mateo</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Si</ns1:Producto>
+    <ns1:Producto rdf:datatype="http://www.w3.org/2001/XMLSchema#int">B0184OCGAP</ns1:Producto>
+    <ns1:Usuario rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns1:Usuario>
+  </rdf:Description>
+</rdf:RDF>

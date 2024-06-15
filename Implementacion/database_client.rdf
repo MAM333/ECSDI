@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/02565434P">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/client"/>
+    <ns1:cuenta_banc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES962100898922113</ns1:cuenta_banc>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434P</ns1:client_id>
+    <ns1:client_direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castelldefels</ns1:client_direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/02565434Z">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/client"/>
+    <ns1:cuenta_banc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES962100898922114</ns1:cuenta_banc>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434Z</ns1:client_id>
+    <ns1:client_direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelona</ns1:client_direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/02565434C">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/client"/>
+    <ns1:cuenta_banc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES962100898922115</ns1:cuenta_banc>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02565434C</ns1:client_id>
+    <ns1:client_direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girona</ns1:client_direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/02578760P">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/client"/>
+    <ns1:cuenta_banc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES962100898922113</ns1:cuenta_banc>
+    <ns1:client_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02578760P</ns1:client_id>
+    <ns1:client_direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castelldefels</ns1:client_direction>
+  </rdf:Description>
+</rdf:RDF>

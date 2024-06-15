@@ -1,0 +1,16 @@
+@prefix ns1: <http://ONTOLOGIA_ECSDI/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:BuscarProducto1 a ns1:BuscarProducto ;
+    ns1:RestringidaPor ns1:RestriccionDeNombre2,
+        ns1:RestriccionDePrecio3 .
+
+ns1:Busqueda4 a ns1:Busqueda .
+
+ns1:RestriccionDeNombre2 a ns1:RestriccionDeNombre ;
+    ns1:Nombre "['Kindle']"^^xsd:string .
+
+ns1:RestriccionDePrecio3 a ns1:RestriccionDePrecio ;
+    ns1:PrecioMaximo 200 ;
+    ns1:PrecioMinimo 11 .
+

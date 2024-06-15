@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://ONTOLOGIA_ECSDI/"
+   xmlns:ns2="http://www.nuin.org/ontology/fipa/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/B0184OCGAG">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindle</ns1:product_name>
+    <ns1:product_id>B0184OCGAG</ns1:product_id>
+    <ns1:product_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bon producte</ns1:product_description>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:price>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ns1:shop>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/ProductosExternos1">
+    <ns1:product_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NUEVOPRODUCTO</ns1:product_id>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</ns1:price>
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NUEVOPRODUCTO</ns1:product_name>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carniceria Paquita</ns1:shop>
+    <ns1:product_descripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Es uno nuevo</ns1:product_descripcion>
+  </rdf:Description>
+  <rdf:Description rdf:about="message--5271038235384824876-0003">
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/aclFipaAclMessage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns2:aclperformative rdf:resource="http://www.nuin.org/ontology/fipa/aclrequest"/>
+    <ns2:aclsender rdf:resource="http://www.agentes.org#AgentePersonal"/>
+    <ns2:aclcontent rdf:resource="http://ONTOLOGIA_ECSDI/ProductosExternos1"/>
+    <ns2:aclreceiver rdf:resource="http://www.agentes.org#AgProductosExternos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/B0184OCGUP">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindle3</ns1:product_name>
+    <ns1:product_id>B0184OCGUP</ns1:product_id>
+    <ns1:product_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bon producte</ns1:product_description>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:price>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ns1:shop>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/B0184OCGUA">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KindleExterno</ns1:product_name>
+    <ns1:product_id>B0184OCGUA</ns1:product_id>
+    <ns1:product_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bon producte</ns1:product_description>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:price>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TiendaExterna1</ns1:shop>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/B0184OCGAP">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindle2</ns1:product_name>
+    <ns1:product_id>B0184OCGAP</ns1:product_id>
+    <ns1:product_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bon producte</ns1:product_description>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:price>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ns1:shop>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ONTOLOGIA_ECSDI/B0184OCGAK">
+    <rdf:type rdf:resource="http://ONTOLOGIA_ECSDI/product"/>
+    <ns1:product_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boli</ns1:product_name>
+    <ns1:product_id>B0184OCGAK</ns1:product_id>
+    <ns1:product_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bon producte</ns1:product_description>
+    <ns1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns1:price>
+    <ns1:shop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ns1:shop>
+  </rdf:Description>
+</rdf:RDF>
